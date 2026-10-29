@@ -1,11 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio - niketh</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="The personal portfolio of Shyam Niketh K — student, creative thinker, and aspiring cybersecurity professional.">
+  <title>Shyam Niketh K — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="SNK home">SNK<span>.</span></a>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#interests">Interests</a>
+          <a href="#vision">Goals</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="#vision">Explore my journey <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="pulse-dot"></span> Hello, world. I'm</p>
+            <h1>Shyam<br><span>Niketh K</span><i class="title-period">.</i></h1>
+            <p class="hero-tagline">Student. Creative thinker.<br><span>Future cyber defender.</span></p>
+            <p class="hero-description">An ambitious student driven by curiosity, creativity, and a passion for technology. I enjoy exploring the world of cinema, expressing ideas through drawing, and working toward my dream of contributing to India's defence cybersecurity ecosystem.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#about">Discover my story <span aria-hidden="true">↘</span></a>
+              <a class="button button-ghost" href="#interests">Explore my interests</a>
+            </div>
+            <p class="status-line"><span class="status-mark"></span> ASPIRING CYBERSECURITY PROFESSIONAL</p>
+          </div>
+
+          <div class="hero-art" aria-label="Abstract digital shield illustration" role="img">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-grid"></div>
+            <div class="art-cross cross-a"></div><div class="art-cross cross-b"></div>
+            <div class="shield-wrap">
+              <svg class="shield-svg" viewBox="0 0 260 300" fill="none" aria-hidden="true">
+                <path d="M130 14 224 49v75c0 69-39 119-94 153-55-34-94-84-94-153V49L130 14Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M130 34 205 62v61c0 55-29 96-75 127-46-31-75-72-75-127V62l75-28Z" stroke="currentColor" stroke-opacity=".35"/>
+                <path d="M130 80 165 94v31c0 25-13 44-35 60-22-16-35-35-35-60V94l35-14Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-width="1.5"/>
+                <path d="m111 124 13 13 27-31" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M130 0v24M130 276v24M0 150h25M235 150h25" stroke="currentColor" stroke-opacity=".45"/>
+              </svg>
+              <div class="shield-label"><span class="label-dot"></span> DEFENCE THROUGH KNOWLEDGE</div>
+            </div>
+            <span class="art-coordinate coordinate-one">10.00 / 76.30</span>
+            <span class="art-coordinate coordinate-two">SYSTEM_STATUS: LEARNING</span>
+            <div class="art-chip chip-one"><span>01</span><b>Curiosity</b></div>
+            <div class="art-chip chip-two"><span>02</span><b>Discipline</b></div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section section-border" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">01 / The person behind the pixels</p>
+            <h2>A little <span>about me.</span></h2>
+          </div>
+          <div class="about-layout">
+            <div class="about-lead">
+              <p class="large-copy">Curiosity is where every great journey begins.</p>
+              <p>I'm a student building my knowledge one step at a time, exploring technology while keeping space for the creative things that inspire me. I believe analytical thinking and imagination can make each other stronger.</p>
+              <p>Movies introduce me to new perspectives, drawing gives my ideas a visual form, and cybersecurity fascinates me because of its role in protecting information and digital infrastructure.</p>
+              <a class="text-link" href="#vision">Where I'm headed <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="identity-cards">
+              <article class="identity-card">
+                <span class="card-index">01</span><span class="mini-icon" aria-hidden="true">⌁</span>
+                <h3>The student</h3><p>Focused on learning, improving skills, and exploring new opportunities.</p>
+              </article>
+              <article class="identity-card">
+                <span class="card-index">02</span><span class="mini-icon" aria-hidden="true">✳</span>
+                <h3>The creative mind</h3><p>Inspired by movies, visual storytelling, sketching, and drawing.</p>
+              </article>
+              <article class="identity-card identity-card-wide">
+                <span class="card-index">03</span><span class="mini-icon" aria-hidden="true">⌘</span>
+                <h3>The future defender</h3><p>Aspiring to develop cybersecurity knowledge and pursue a future in India's defence cyber domain.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="interests section section-border" id="interests">
+        <div class="container">
+          <div class="section-heading section-heading-row">
+            <div><p class="eyebrow">02 / Things that move me</p><h2>What fuels my <span>curiosity.</span></h2></div>
+            <p class="heading-note">Different interests.<br>One curious mind.</p>
+          </div>
+          <div class="interest-grid">
+            <article class="interest-card interest-cyber">
+              <div class="interest-visual cyber-visual" aria-hidden="true">
+                <div class="cyber-rings"><span></span><span></span><span></span></div>
+                <div class="cyber-core">✳</div><span class="visual-code">SECURE / LEARN / REPEAT</span>
+              </div>
+              <div class="interest-content"><p class="card-kicker">01 — TECH & SECURITY</p><h3>Technology<br>& cybersecurity</h3><p>I'm curious about cybersecurity fundamentals, digital privacy, network security, and the responsible practices that help keep people and systems safer.</p><div class="tag-row"><span>Digital safety</span><span>Ethical learning</span></div></div>
+            </article>
+            <article class="interest-card interest-cinema">
+              <div class="interest-visual cinema-visual" aria-hidden="true">
+                <div class="film-frame"><span></span><span></span><span></span><span></span><div class="film-center">FRAME<br><b>∞</b><br>STORY</div></div>
+                <span class="visual-code">SCENE 01 · TAKE 01</span>
+              </div>
+              <div class="interest-content"><p class="card-kicker">02 — CINEMA & STORIES</p><h3>Movies &<br>storytelling</h3><p>I appreciate the craft behind memorable scenes — from cinematography and direction to the small details that make a story stay with you.</p><div class="tag-row"><span>Imagination</span><span>Visual stories</span></div></div>
+            </article>
+            <article class="interest-card interest-art">
+              <div class="interest-visual art-visual" aria-hidden="true">
+                <div class="sketch-circle"></div><div class="sketch-stroke stroke-one"></div><div class="sketch-stroke stroke-two"></div><div class="sketch-spark">✳</div>
+                <span class="visual-code">IDEA → SKETCH → FORM</span>
+              </div>
+              <div class="interest-content"><p class="card-kicker">03 — DRAWING & ART</p><h3>Drawing &<br>visual art</h3><p>Sketching lets me slow down, observe details, and turn ideas into something visible. I enjoy exploring composition and personal expression.</p><div class="tag-row"><span>Sketching</span><span>Creative practice</span></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="vision section section-border" id="vision">
+        <div class="container vision-container">
+          <div class="vision-copy">
+            <p class="eyebrow"><span class="pulse-dot"></span> 03 / The direction I'm working toward</p>
+            <h2>My vision.<br><span>My mission.</span></h2>
+            <p class="vision-statement">Aiming to protect.<br><em>Preparing to serve.</em></p>
+            <p class="vision-description">My long-term ambition is to pursue a career in India's defence cybersecurity sector. I want to strengthen my technical knowledge, develop discipline, and work toward the skills needed to help protect critical digital systems.</p>
+            <p class="future-note"><span>↗</span> A future goal — built through learning, practice, and preparation.</p>
+          </div>
+          <div class="vision-graphic" aria-hidden="true">
+            <div class="network network-a"></div><div class="network network-b"></div><div class="network network-c"></div>
+            <div class="vision-shield">
+              <svg viewBox="0 0 160 190" fill="none">
+                <path d="M80 8 145 32v49c0 47-26 77-65 101C41 158 15 128 15 81V32L80 8Z" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M80 29 126 46v35c0 33-18 56-46 74-28-18-46-41-46-74V46L80 29Z" stroke="currentColor" stroke-opacity=".35"/>
+                <path d="m57 83 16 16 31-34" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="node node-one"></span><span class="node node-two"></span><span class="node node-three"></span><span class="node node-four"></span>
+            <span class="graphic-caption">INTENT / INTEGRITY / IMPACT</span>
+          </div>
+          <div class="milestones">
+            <article class="milestone"><span class="milestone-number">01</span><div><p class="milestone-label">THE FOUNDATION</p><h3>Learn</h3><p>Build a strong foundation in computing and cybersecurity.</p></div><span class="milestone-arrow">↗</span></article>
+            <article class="milestone"><span class="milestone-number">02</span><div><p class="milestone-label">THE PRACTICE</p><h3>Practice</h3><p>Develop practical skills through ethical labs and personal projects.</p></div><span class="milestone-arrow">↗</span></article>
+            <article class="milestone"><span class="milestone-number">03</span><div><p class="milestone-label">THE PREPARATION</p><h3>Prepare</h3><p>Explore relevant education, eligibility, and legitimate career pathways in India's defence and cybersecurity ecosystem.</p></div><span class="milestone-arrow">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="manifesto section">
+        <div class="container manifesto-inner">
+          <p class="eyebrow">A personal philosophy</p>
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <blockquote>Dream with purpose.<br><span>Learn with discipline.</span><br>Create with imagination.</blockquote>
+          <div class="manifesto-foot"><span></span><p>THE MINDSET I CARRY FORWARD</p><span></span></div>
+        </div>
+      </section>
+
+      <section class="contact section section-border" id="contact">
+        <div class="container contact-layout">
+          <div><p class="eyebrow">04 / Start a conversation</p><h2>Let's <span>connect.</span></h2><p class="contact-copy">Always open to learning, sharing ideas, and connecting with people who are passionate about technology and creativity.</p></div>
+          <div class="contact-panel">
+            <p class="panel-label">HAVE AN IDEA OR JUST WANT TO SAY HI?</p>
+            <a class="email-link" href="mailto:your-email@example.com">your-email@example.com <span aria-hidden="true">↗</span></a>
+            <div class="social-links">
+              <!-- Replace # with your actual profile URLs before publishing. -->
+              <a href="#" aria-label="GitHub profile placeholder" onclick="return false;">GitHub <span>↗</span></a>
+              <a href="#" aria-label="LinkedIn profile placeholder" onclick="return false;">LinkedIn <span>↗</span></a>
+            </div>
+            <a class="button button-primary contact-button" href="mailto:your-email@example.com">Get in touch <span aria-hidden="true">↗</span></a>
+            <p class="placeholder-note">Remember to replace the email and social links with your own details.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#home">SNK<span>.</span></a>
+        <p>© 2026 Shyam Niketh K. <span>Built with curiosity and ambition.</span></p>
+        <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
